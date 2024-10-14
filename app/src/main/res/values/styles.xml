@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Couleur de fond de l'AlertDialog -->
+        <item name="android:background">#E89A8B08</item>
+        <!-- Couleur du texte principal dans l'AlertDialog -->
+        <item name="android:textColorPrimary">#070F3E</item>
+        <!-- Couleur des boutons de l'AlertDialog -->
+        <item name="android:buttonBarPositiveButtonStyle">@style/AlertDialogButton</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/AlertDialogButton</item>
+    </style>
+
+    <style name="AlertDialogButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor"></item>
+
+    </style>
+
+</resources>
